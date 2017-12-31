@@ -5,7 +5,7 @@ License:        GPLv3+
 Summary:        Alternative desktop replacement for KDE Plasma
 Group:          System/GUI/KDE
 URL:            https://github.com/KDE/liquidshell
-Source0:        https://github.com/KDE/liquidshell/archive/%{name}-%{version}.tar.gz
+Source0:        https://dl.opendesktop.org/api/files/downloadfile/id/1514638966/s/1e4264c1a4823bb0536e287edba0b92f/t/1514716279/%{name}-%{version}.tar.xz
 BuildRequires:  cmake
 BuildRequires:  qmake5
 BuildRequires:  pkgconfig(Qt5Core)
