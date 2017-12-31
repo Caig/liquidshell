@@ -17,6 +17,9 @@ BuildRequires:  cmake(KF5KCMUtils)
 BuildRequires:  cmake(KF5NewStuff)
 BuildRequires:  cmake(KF5IconThemes)
 BuildRequires:  cmake(KF5Solid)
+BuildRequires:  cmake(KF5Notifications)
+BuildRequires:  cmake(KF5BluezQt)
+BuildRequires:  cmake(KF5Crash)
 
 %description
 An alternative to plasmashell.
