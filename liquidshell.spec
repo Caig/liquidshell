@@ -10,12 +10,13 @@ BuildRequires:  cmake
 BuildRequires:  qmake5
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Widgets)
-BuildRequires:  packagekit-qt
-BuildRequires:  networkmanager-qt
-BuildRequires:  bluez-qt
-BuildRequires:  kcmutils
-BuildRequires:  knewstuff
-BuildRequires:  hicolor-icon-theme
+BuildRequires:  cmake(KF5)
+BuildRequires:  cmake(packagekitqt5)
+BuildRequires:  cmake(KF5NetworkManagerQt)
+BuildRequires:  cmake(KF5KCMUtils)
+BuildRequires:  cmake(KF5NewStuff)
+BuildRequires:  cmake(KF5IconThemes)
+BuildRequires:  cmake(KF5Solid)
 
 %description
 An alternative to plasmashell.
